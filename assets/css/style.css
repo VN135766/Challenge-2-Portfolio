@@ -7,13 +7,15 @@ body {
 }
 header {
     padding: 20px 35px;
-    background-color: #808080;
+    background-color: #343637;
   }
   header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #000000;
+    color: #343637;
     margin: 0;
+    background-color: #04CBF7;
+    width: 250px;
   }
 
   header a {
@@ -32,8 +34,8 @@ header {
     font-size: 22px;
   }
   .hero {
-    background-image: url('../images/cat.jpg');
-    height: 600px;
+    background-image: url('../images/wallpaper.jpg');
+    height: 450px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -42,8 +44,9 @@ header {
     background-color: #04CBF7;
     padding: 10px;
     width: 300px;
-    color: #000000;
+    color: #343637;
     position: absolute;
     bottom: 50px;
     right: 50px;
+    font-size: 25px;
   }
