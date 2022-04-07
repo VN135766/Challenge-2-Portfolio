@@ -53,19 +53,18 @@ header {
     font-size: 25px;
   }
   .intro {
-    text-align: center;
+    text-align: left;
+    margin: 50px;
   }
   .intro h2 {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    border-right: 3px solid black;
-    height: 200px;
+    border-right: 3px solid #343637;
+    height: 150px;
     position: absolute;
-    left: auto;
+    left: 5%;
     padding: 0 50px 20px 10px;
-    word-break: break-all;
-    
+    text-align: right;
         }
   .intro p {
     line-height: 1.5;
@@ -73,5 +72,12 @@ header {
     width: 80%;
     font-size: 20px;
     padding: 25px 100px 20px 350px;
-    
+  }
+  .intro a {
+    line-height: 1.5;
+    color: #024e76;
+    font-size: 20px;
+    padding: 50px 50px 50px 50px;
+    font-weight: bold;
+    text-decoration: underline;
   }
