@@ -6,7 +6,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 header {
-    padding: 20px 35px;
+    padding: 30px 10px;
     background-color: #343637;
   }
   header h1 {
@@ -14,13 +14,15 @@ header {
     font-size: 36px;
     color: #343637;
     margin: 0;
-    background-color: #04CBF7;
+    background-color: #38A9B4;
     width: 250px;
   }
 
   header a {
     text-decoration: underline;
-    color: #04CBF7;
+    color: #38A9B4;
+    position: relative;
+    top: -30px;
   }
   header nav {
     float: right;
@@ -41,7 +43,7 @@ header {
     position: relative;
   }
   .hero-subtitle {
-    background-color: #04CBF7;
+    background-color: #38A9B4;
     padding: 10px;
     width: 300px;
     color: #343637;
@@ -49,4 +51,27 @@ header {
     bottom: 50px;
     right: 50px;
     font-size: 25px;
+  }
+  .intro {
+    text-align: center;
+  }
+  .intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    border-right: 3px solid black;
+    height: 200px;
+    position: absolute;
+    left: auto;
+    padding: 0 50px 20px 10px;
+    word-break: break-all;
+    
+        }
+  .intro p {
+    line-height: 1.5;
+    color: #024e76;
+    width: 80%;
+    font-size: 20px;
+    padding: 25px 100px 20px 350px;
+    
   }
