@@ -1,83 +1,97 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body {
-    font-family: Helvetica, Arial, sans-serif;
-}
-header {
-    padding: 30px 10px;
-    background-color: #343637;
-  }
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #343637;
-    margin: 0;
-    background-color: #38A9B4;
-    width: 250px;
-  }
 
-  header a {
-    text-decoration: underline;
-    color: #38A9B4;
-    position: relative;
-    top: -30px;
-  }
-  header nav {
-    float: right;
-  }
-  header nav ul li {
-    display: inline;
-  }
-  header nav ul li a {
-    margin: 0 30px;
-    font-weight: bold;
-    font-size: 22px;
-  }
-  .hero {
-    background-image: url('../images/wallpaper.jpg');
-    height: 450px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-  .hero-subtitle {
-    background-color: #38A9B4;
-    padding: 10px;
-    width: 300px;
-    color: #343637;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    font-size: 25px;
-  }
-  .intro {
-    text-align: left;
-    margin: 50px;
-  }
-  .intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    border-right: 3px solid #343637;
-    height: 150px;
-    position: absolute;
-    left: 5%;
-    padding: 0 50px 20px 10px;
-    text-align: right;
-        }
-  .intro p {
-    line-height: 1.5;
-    color: #024e76;
-    width: 80%;
-    font-size: 20px;
-    padding: 25px 100px 20px 350px;
-  }
-  .intro a {
-    line-height: 1.5;
-    color: #024e76;
-    font-size: 20px;
-    padding: 50px 50px 50px 50px;
-    font-weight: bold;
-    text-decoration: underline;
-  }
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding: 30px 10px;
+  background-color: #343637;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #343637;
+  margin: 0;
+  background-color: #38A9B4;
+  width: 250px;
+}
+
+header a {
+  text-decoration: underline;
+  color: #38A9B4;
+  position: relative;
+  top: -30px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.hero {
+  background-image: url('../images/wallpaper.jpg');
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-subtitle {
+  background-color: #38A9B4;
+  padding: 10px;
+  width: 300px;
+  color: #343637;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font-size: 25px;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #38A9B4;
+  padding-bottom: 20px;
+  text-align: left;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.primary-border {
+  border-color: #343637;
+}
+.work {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.work-example {
+  position: relative;
+  width: 100%;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  background-color: #2CD7E8;
+  color: #343637;
+  border: 3px solid #468DA4;
+}
+img {
+  border: 3px solid #468DA4;
+}
