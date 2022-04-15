@@ -39,6 +39,7 @@ header nav ul li a {
   color: #38A9B4;
   font-size: 25px;
   border-bottom: 1px solid #38A9B4;
+  text-decoration: none;
 }
 
 .hero{
@@ -69,12 +70,17 @@ header nav ul li a {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .intro p{
   padding-left: 20px;
   width: 50%;
-  border-left: 1px solid #343637;
+  border-left: 2px solid #343637;
+}
+
+.work-history h2{
+  padding-left: 100px;
 }
 
 .project-examples{
@@ -82,17 +88,35 @@ header nav ul li a {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
+  border-left: 2px solid #343637;
+  justify-content: space-around;
+  padding-left: 50px;
 
 }
 
 .large-project {
   background-image: url("../images/surf-report.jpg");
   background-size: cover;
+  min-height: 500px;
+  width: 100%;
+  border: 3px solid #38A9B4;
+  margin-bottom: 20px;
+}
+
+.large-project h3 {
+  font-size: 40px;
 }
 
 .small-project{
   border: 2px solid #2CD7E8;
   object-fit: cover;
+  width: 50%;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+
+.small-project h3 {
+  font-size: 30px;
 }
 
 .led{
@@ -100,7 +124,7 @@ header nav ul li a {
   background-size: cover;
 }
 
-.caluculator {
+.calculator {
   background-image: url("../images/surf-report.jpg");
   background-size: cover;
 }
@@ -118,14 +142,24 @@ footer{
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: center;
 }
 footer h2{
   font-size: 30px;
+  margin: 0;
+  text-align: right;
 }
 
 footer nav{
   font-size: 30px;
+  border-left: 1px solid #343637;
 }
 footer nav ul li {
 display: inline-block;
+font-size: 20px;
+margin-left: 50px;
+}
+
+footer nav ul {
+  list-style-type: none;
 }
