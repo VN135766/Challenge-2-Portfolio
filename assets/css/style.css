@@ -60,13 +60,31 @@ header nav ul li a {
 }
 
 .section-title {
-  font-size: 48px;
-  border-right: 3px solid;
-  color: #38A9B4;
+  font-size: 50px;
+  margin right: 3px;
+}
+
+.profile{
   padding-bottom: 20px;
-  text-align: left;
-  margin: 0 auto 35px auto;
+  display: flex;
+}
+
+.intro p{
+  padding-left: 20px;
   width: 50%;
+}
+
+.project-examples{
+  background-size: cover;
+}
+
+.large-project {
+  background-image: url("../images/surf-report.jpg");
+}
+
+.small-project{
+  border: 2px solid #2CD7E8;
+  object-fit: cover;
 }
 
 .primary-border {
