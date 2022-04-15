@@ -58,11 +58,13 @@ header nav ul li a {
   padding: 5px 5px 5px 5px;
   font-size: 30px;
   background-color: #38A9B4;
+  color: #343637;
 }
 
 .section-title {
   font-size: 50px;
-  margin-right: 3px;
+  margin-right: 10px;
+  color: #343637;
 }
 
 .profile {
@@ -122,7 +124,7 @@ header nav ul li a {
 }
 
 .profile span {
-  background-color:#2CD7E8 ;
+  background-color: #2CD7E8;
   border: 3px solid #38A9B4;
 }
 
@@ -178,7 +180,7 @@ footer nav ul {
 }
 
 section {
-  padding: 50px;
+  padding: 45px;
 }
 
 .large-project:hover {
@@ -190,33 +192,40 @@ section {
 }
 
 @media screen and (max-width: 980px) {
-header {
-  justify-content: center;
-  position: relative;
-}
-header h1 {
-  width: 100%;
-  text-align: center;
-}
-header nav {
-  margin: 0;
-}
-.hero h3 {
-  float: none;
-  justify-content: center;
-  text-align: center;
-}
-footer nav {
-  text-align: center;
-  width: 100%;
-}
-.large-project {
-  width: 100%;
+  header {
+    justify-content: center;
+    position: relative;
+  }
 
-}
-.small-project{
-  width: 90%;
-}
-footer h2 {
-  text-align: center;
-}
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav {
+    margin: 0;
+  }
+
+  .hero h3 {
+    float: none;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer nav {
+    text-align: center;
+    width: 100%;
+  }
+
+  .large-project {
+    width: 100%;
+
+  }
+
+  .small-project {
+    width: 90%;
+  }
+
+  footer h2 {
+    text-align: center;
+  }
