@@ -37,8 +37,8 @@ header nav ul li {
 
 header nav ul li a {
   color: #38A9B4;
-  font-size: 20px;
-  border-bottom: 2px solid #38A9B4;
+  font-size: 25px;
+  border-bottom: 1px solid #38A9B4;
 }
 
 .hero{
@@ -67,19 +67,27 @@ header nav ul li a {
 .profile{
   padding-bottom: 20px;
   display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .intro p{
   padding-left: 20px;
   width: 50%;
+  border-left: 1px solid #343637;
 }
 
 .project-examples{
   background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+
 }
 
 .large-project {
   background-image: url("../images/surf-report.jpg");
+  background-size: cover;
 }
 
 .small-project{
@@ -87,30 +95,37 @@ header nav ul li a {
   object-fit: cover;
 }
 
-.primary-border {
-  border-color: #343637;
+.led{
+  background-image: url("../images/surf-report.jpg");
+  background-size: cover;
 }
 
-.work-example {
-  position: relative;
-  width: 100%;
+.caluculator {
+  background-image: url("../images/surf-report.jpg");
+  background-size: cover;
 }
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  background-color: #2CD7E8;
-  color: #343637;
-  border: 3px solid #468DA4;
+
+.pastel{
+  background-image: url("../images/surf-report.jpg");
+  background-size: cover;
 }
-img {
-  border: 3px solid #468DA4;
+.run-buddy {
+  background-image: url("../images/run-buddy.jpeg");
+  background-size: cover;
 }
-.work {
-  width: 618px;
-  margin: 0 auto 30px auto;
-  background: white;
-  overflow: auto;
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
-.intro p{
-  text-align: right;
+footer h2{
+  font-size: 30px;
+}
+
+footer nav{
+  font-size: 30px;
+}
+footer nav ul li {
+display: inline-block;
 }
